@@ -1,0 +1,17 @@
+## Summary
+
+- 
+
+## Checklist
+
+- [ ] I verified the source repo, license, and install path for any new skill.
+- [ ] I added or updated the relevant `docs/` category entry.
+- [ ] I ran `make catalog`.
+- [ ] I ran `make validate`.
+- [ ] I avoided adding skills whose core path requires a paid/proprietary API.
+
+## Notes for reviewers
+
+- Source:
+- License:
+- Local path:

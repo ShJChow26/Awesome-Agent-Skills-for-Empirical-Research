@@ -9,6 +9,54 @@
 
 ---
 
+## 📚 全部技能集合导航（00–68）
+
+本仓库 `skills/` 目录下共收录 **69 个编号集合（00–68）**，其中 `00` 含 StatsPAI / Python /
+Stata / R 四个语言变体，实际为 **72 个文件夹**。点击下表任一名称即可直达对应集合目录。
+
+> 本演示包（`Paper-WorkFlow/`）基于第 `67` 集 [`67-econfin-workflow-toolkit`](../67-econfin-workflow-toolkit/) 制作。
+
+| # | 技能集合 | # | 技能集合 |
+|---|---|---|---|
+| 1 | `00` [00-Full-empirical-analysis-skill_StatsPAI](../00-Full-empirical-analysis-skill_StatsPAI/) | 37 | `33` [33-Galaxy-Dawn-claude-scholar](../33-Galaxy-Dawn-claude-scholar/) |
+| 2 | `00.1` [00.1-Full-empirical-analysis-skill_Python](../00.1-Full-empirical-analysis-skill_Python/) | 38 | `34` [34-andrehuang-research-companion](../34-andrehuang-research-companion/) |
+| 3 | `00.2` [00.2-Full-empirical-analysis-skill_Stata](../00.2-Full-empirical-analysis-skill_Stata/) | 39 | `35` [35-bahayonghang-academic-writing-skills](../35-bahayonghang-academic-writing-skills/) |
+| 4 | `00.3` [00.3-Full-empirical-analysis-skill_R](../00.3-Full-empirical-analysis-skill_R/) | 40 | `36` [36-taoyunudt-literature-review-skill](../36-taoyunudt-literature-review-skill/) |
+| 5 | `01` [01-lishix520-academic-paper-skills](../01-lishix520-academic-paper-skills/) | 41 | `37` [37-IlanStrauss-ai-skills](../37-IlanStrauss-ai-skills/) |
+| 6 | `02` [02-luwill-research-skills](../02-luwill-research-skills/) | 42 | `38` [38-peternka-academic-proofreader](../38-peternka-academic-proofreader/) |
+| 7 | `03` [03-K-Dense-AI-claude-scientific-skills](../03-K-Dense-AI-claude-scientific-skills/) | 43 | `39` [39-vincentarelbundock-marginaleffects](../39-vincentarelbundock-marginaleffects/) |
+| 8 | `04` [04-K-Dense-AI-claude-scientific-writer](../04-K-Dense-AI-claude-scientific-writer/) | 44 | `40` [40-py-econometrics-pyfixest](../40-py-econometrics-pyfixest/) |
+| 9 | `05` [05-kthorn-research-superpower](../05-kthorn-research-superpower/) | 45 | `41` [41-sticerd-eee-sewage-econometrics-check](../41-sticerd-eee-sewage-econometrics-check/) |
+| 10 | `06` [06-fuhaoda-stats-paper-writing](../06-fuhaoda-stats-paper-writing/) | 46 | `42` [42-wanshuiyin-ARIS](../42-wanshuiyin-ARIS/) |
+| 11 | `07` [07-Orchestra-Research-AI-Research-SKILLs](../07-Orchestra-Research-AI-Research-SKILLs/) | 47 | `43` [43-wentorai-research-plugins](../43-wentorai-research-plugins/) |
+| 12 | `08` [08-ndpvt-web-latex-document-skill](../08-ndpvt-web-latex-document-skill/) | 48 | `44` [44-matsuikentaro1-humanizer_academic](../44-matsuikentaro1-humanizer_academic/) |
+| 13 | `09` [09-meleantonio-awesome-econ-ai-stuff](../09-meleantonio-awesome-econ-ai-stuff/) | 49 | `45` [45-stephenturner-skill-deslop](../45-stephenturner-skill-deslop/) |
+| 14 | `10` [10-Jill0099-causal-inference-mixtape](../10-Jill0099-causal-inference-mixtape/) | 50 | `46` [46-hardikpandya-stop-slop](../46-hardikpandya-stop-slop/) |
+| 15 | `11` [11-James-Traina-compound-science](../11-James-Traina-compound-science/) | 51 | `47` [47-conorbronsdon-avoid-ai-writing](../47-conorbronsdon-avoid-ai-writing/) |
+| 16 | `12` [12-pedrohcgs-claude-code-my-workflow](../12-pedrohcgs-claude-code-my-workflow/) | 52 | `48` [48-copaper-ai-chinese-de-aigc](../48-copaper-ai-chinese-de-aigc/) |
+| 17 | `13` [13-scunning1975-MixtapeTools](../13-scunning1975-MixtapeTools/) | 53 | `49` [49-voidborne-d-humanize-chinese](../49-voidborne-d-humanize-chinese/) |
+| 18 | `14` [14-luischanci-claude-code-research-starter](../14-luischanci-claude-code-research-starter/) | 54 | `50` [50-brycewang-aer-skills](../50-brycewang-aer-skills/) |
+| 19 | `15` [15-Felpix-Studios-social-science-research](../15-Felpix-Studios-social-science-research/) | 55 | `51` [51-pymc-labs-CausalPy](../51-pymc-labs-CausalPy/) |
+| 20 | `16` [16-hsantanna88-clo-author](../16-hsantanna88-clo-author/) | 56 | `52` [52-keemanxp-slr-prisma](../52-keemanxp-slr-prisma/) |
+| 21 | `17` [17-DAAF-Contribution-Community-daaf](../17-DAAF-Contribution-Community-daaf/) | 57 | `53` [53-keemanxp-thematic-analysis-skill](../53-keemanxp-thematic-analysis-skill/) |
+| 22 | `18` [18-jusi-aalto-stata-accounting-research](../18-jusi-aalto-stata-accounting-research/) | 58 | `54` [54-scdenney-open-science-skills](../54-scdenney-open-science-skills/) |
+| 23 | `19` [19-CuellarC05-vera-economic-intelligence](../19-CuellarC05-vera-economic-intelligence/) | 59 | `55` [55-ab604-claude-code-r-skills](../55-ab604-claude-code-r-skills/) |
+| 24 | `20` [20-wenddymacro-python-econ-skill](../20-wenddymacro-python-econ-skill/) | 60 | `56` [56-hanlulong-econ-writing-skill](../56-hanlulong-econ-writing-skill/) |
+| 25 | `21` [21-claesbackman-AI-research-feedback](../21-claesbackman-AI-research-feedback/) | 61 | `57` [57-dgunning-edgartools](../57-dgunning-edgartools/) |
+| 26 | `22` [22-christopherkenny-skills](../22-christopherkenny-skills/) | 62 | `58` [58-charlescoverdale-econstack](../58-charlescoverdale-econstack/) |
+| 27 | `23` [23-Learning-Bayesian-Statistics-baygent-skills](../23-Learning-Bayesian-Statistics-baygent-skills/) | 63 | `59` [59-shiquda-openalex-skill](../59-shiquda-openalex-skill/) |
+| 28 | `24` [24-Imbad0202-academic-research-skills](../24-Imbad0202-academic-research-skills/) | 64 | `60` [60-regisely-superpapers](../60-regisely-superpapers/) |
+| 29 | `25` [25-HosungYou-Diverga](../25-HosungYou-Diverga/) | 65 | `61` [61-phdemotions-research-methods](../61-phdemotions-research-methods/) |
+| 30 | `26` [26-Data-Wise-scholar](../26-Data-Wise-scholar/) | 66 | `62` [62-PHY041-claude-skill-citation-checker](../62-PHY041-claude-skill-citation-checker/) |
+| 31 | `27` [27-dariia-m-my_claude_skills](../27-dariia-m-my_claude_skills/) | 67 | `63` [63-tondevrel-scientific-agent-skills](../63-tondevrel-scientific-agent-skills/) |
+| 32 | `28` [28-maxwell2732-paper-replicate-agent-demo](../28-maxwell2732-paper-replicate-agent-demo/) | 68 | `64` [64-tmonk-mcp-stata](../64-tmonk-mcp-stata/) |
+| 33 | `29` [29-quarcs-lab-project20XXy](../29-quarcs-lab-project20XXy/) | 69 | `65` [65-game-theory-paper-writer](../65-game-theory-paper-writer/) |
+| 34 | `30` [30-zirui-song-claude-skills](../30-zirui-song-claude-skills/) | 70 | `66` [66-zheng-siyao-empirical-research-skills](../66-zheng-siyao-empirical-research-skills/) |
+| 35 | `31` [31-thalysandratos-claude-code-skills](../31-thalysandratos-claude-code-skills/) | 71 | `67` [67-econfin-workflow-toolkit](../67-econfin-workflow-toolkit/) |
+| 36 | `32` [32-dylantmoore-stata-skill](../32-dylantmoore-stata-skill/) | 72 | `68` [68-research-productivity-skills](../68-research-productivity-skills/) |
+
+---
+
 ## 交付物
 
 | 文件 | 说明 |
@@ -68,6 +116,7 @@
 ## 如何使用
 
 ### 看/改幻灯片
+
 直接打开 `社科实证论文工作流.pptx`（PowerPoint / Keynote / WPS 均可编辑）。
 若要批量改样式或内容，编辑 `build_pptx.py` 后重新生成：
 
@@ -76,6 +125,7 @@ python3 build_pptx.py        # 依赖: pip install python-pptx
 ```
 
 ### 跑演示 Notebook
+
 在 VS Code（Jupyter 扩展）或 JupyterLab 打开 `did_demo.ipynb`，从上到下逐 cell 运行。
 也可命令行一键执行：
 

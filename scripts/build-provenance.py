@@ -21,6 +21,39 @@ SCAN_DATE = "2026-05-31"
 
 
 OVERRIDES: dict[str, dict[str, object]] = {
+    # --- folder-name-encoded upstreams ---------------------------------------
+    # These vendored skills follow the "NN-<github-owner>-<repo>" naming
+    # convention, so their upstream URL was previously *derived* from the
+    # directory name by infer_source_url(). That heuristic has been removed
+    # (it could not tell an "owner-repo" folder from a descriptive one and
+    # fabricated 404s such as "github.com/game/theory-paper-writer"), so the
+    # mapping is now pinned explicitly. URLs verified reachable on 2026-06-23;
+    # confidence stays "low" because folder-name match is not an independently
+    # verified content match. Values reproduce the prior inferred output exactly.
+    "14-luischanci-claude-code-research-starter": {
+        "source_url": "https://github.com/luischanci/claude-code-research-starter",
+        "source_confidence": "low",
+    },
+    "20-wenddymacro-python-econ-skill": {
+        "source_url": "https://github.com/wenddymacro/python-econ-skill",
+        "source_confidence": "low",
+    },
+    "22-christopherkenny-skills": {
+        "source_url": "https://github.com/christopherkenny/skills",
+        "source_confidence": "low",
+    },
+    "28-maxwell2732-paper-replicate-agent-demo": {
+        "source_url": "https://github.com/maxwell2732/paper-replicate-agent-demo",
+        "source_confidence": "low",
+    },
+    "36-taoyunudt-literature-review-skill": {
+        "source_url": "https://github.com/taoyunudt/literature-review-skill",
+        "source_confidence": "low",
+    },
+    "46-hardikpandya-stop-slop": {
+        "source_url": "https://github.com/hardikpandya/stop-slop",
+        "source_confidence": "low",
+    },
     "00-Full-empirical-analysis-skill_StatsPAI": {
         "source_url": "https://github.com/brycewang-stanford/StatsPAI",
         "license": "MIT",
@@ -311,10 +344,12 @@ def infer_source_url(collection: str, text: str) -> tuple[str | None, str]:
                 return candidate, "medium"
         return candidates[0], "medium"
 
-    stripped = re.sub(r"^\d+(?:\.\d+)?-", "", collection)
-    parts = stripped.split("-", 1)
-    if len(parts) == 2 and parts[0] and parts[1]:
-        return f"https://github.com/{parts[0]}/{parts[1]}", "low"
+    # No URL is fabricated from the directory name. Splitting "NN-foo-bar" on the
+    # first hyphen used to emit "github.com/foo/bar", but the folder name cannot
+    # be told apart from a purely descriptive one (e.g. "game-theory-paper-writer"
+    # produced the bogus 404 "github.com/game/theory-paper-writer"). Per the
+    # repo's "never invent a source" rule, return UNKNOWN and let a maintainer
+    # pin the real upstream in OVERRIDES instead.
     return None, "unknown"
 
 

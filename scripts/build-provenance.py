@@ -215,10 +215,18 @@ OVERRIDES: dict[str, dict[str, object]] = {
         "sync": "manual vendor snapshot",
         "source_confidence": "high",
     },
-    # --- 2026-06-15 empirical-research expansion ---
+    # --- 2026-06-15 game-theory + empirical-research expansion ---
+    "65-game-theory-paper-writer": {
+        "source_url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/pull/17",
+        "license": "CC-BY-SA-4.0",
+        "origin": "original community contribution via PR #17 (game-theory paper-writing skill); no external upstream — repo-default license applies",
+        "sync": "manual",
+        "source_confidence": "medium",
+    },
     "66-zheng-siyao-empirical-research-skills": {
-        "source_url": "https://github.com/zheng-siyao/ai4socialscience-skills",
-        "origin": "vendored upstream snapshot (7 SKILL.md skills) 2026-06-15",
+        "source_url": "https://github.com/SiyaoZheng/ai4ss-skills",
+        "license": "GPL-3.0",
+        "origin": "vendored upstream snapshot (7 SKILL.md skills) from SiyaoZheng/ai4ss-skills (郑思尧 / AI4SS) 2026-06-15; contributed via PR #18",
         "sync": "manual vendor snapshot",
         "source_confidence": "high",
     },

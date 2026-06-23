@@ -1089,11 +1089,11 @@
       "sync": "manual vendor snapshot"
     },
     {
-      "commercial_use": "unknown",
+      "commercial_use": "share-alike",
       "has_license": false,
       "has_readme": false,
       "id": "65-game-theory-paper-writer",
-      "license": "UNKNOWN - check upstream",
+      "license": "CC-BY-SA-4.0",
       "path": "skills/65-game-theory-paper-writer",
       "primary_skill": {
         "description": "Generate, continue, revise, polish, and stress-test game theory research papers. Use when the user provides a game theory topic, phenomenon, draft, outline, model idea, literature anchor, reviewer comments, or asks for 博弈论论文生成, 选题建模, 文献迁移, 模型修正, 均衡分析, 数值模拟, 论文润色, 改稿打磨, or R&R response work.",
@@ -1101,16 +1101,16 @@
         "path": "skills/65-game-theory-paper-writer/SKILL.md"
       },
       "skill_count": 1,
-      "source_confidence": "low",
-      "source_url": "https://github.com/game/theory-paper-writer",
-      "sync": "manual vendor snapshot"
+      "source_confidence": "medium",
+      "source_url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/pull/17",
+      "sync": "manual"
     },
     {
-      "commercial_use": "unknown",
+      "commercial_use": "share-alike",
       "has_license": false,
       "has_readme": false,
       "id": "66-zheng-siyao-empirical-research-skills",
-      "license": "UNKNOWN - check upstream",
+      "license": "GPL-3.0",
       "path": "skills/66-zheng-siyao-empirical-research-skills",
       "primary_skill": {
         "description": "R语言实证分析优化Skill。优化R代码效率、处理大规模面板数据、加速回归计算（并行化、向量化、向量化）。触发词：R语言优化/R加速/R性能优化/大规模数据处理/R optimization",
@@ -1119,7 +1119,7 @@
       },
       "skill_count": 7,
       "source_confidence": "high",
-      "source_url": "https://github.com/zheng-siyao/ai4socialscience-skills",
+      "source_url": "https://github.com/SiyaoZheng/ai4ss-skills",
       "sync": "manual vendor snapshot"
     },
     {

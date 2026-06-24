@@ -69,6 +69,11 @@ SCENARIO_METHOD = {
     "aer-identification-staggered": "staggered-did",
     "statspai-pretrends-eventstudy": "event-study",
     "statspai-matching-overlap": "matching",
+    "statspai-synthetic-control": "synthetic-control",
+    "pyfixest-panel-clustering": "panel-fe",
+    "statspai-dml-crossfit": "dml",
+    "baygent-bayesian-diagnostics": "bayesian",
+    "statspai-survival-assumptions": "survival",
     "statspai-bad-controls": "*",
     "statspai-clustered-inference": "*",
     "aer-robustness-multiple-testing": "*",
@@ -88,13 +93,18 @@ TASK_METHOD = {
     "rdd-recovery": "rdd",
     "did-staggered-recovery": "staggered-did",
     "lalonde-recovery": "matching",
+    "panel-fe-recovery": "panel-fe",
+    "event-study-recovery": "event-study",
+    "dml-recovery": "dml",
+    "survival-recovery": "survival",
+    "bayesian-recovery": "bayesian",
+    "synthetic-control-recovery": "synthetic-control",
     "bad-control-recovery": "*",
 }
 
 # Short notes where a family is defended indirectly by a sibling family.
 RELATED_NOTE = {
-    "did": "2x2 base case; staggered identification is tested under Staggered DiD.",
-    "panel-fe": "Clustered-inference check (cross-cutting) applies here.",
+    "did": "2x2 base case; the parallel-trends/pre-trends check lives under Event study, and staggered identification under Staggered DiD.",
 }
 
 
@@ -181,6 +191,8 @@ def render() -> str:
             return "eval only"
         if has_b:
             return "benchmark only"
+        if method in RELATED_NOTE:
+            return "indirect"
         return "gap"
 
     lines: list[str] = []
@@ -209,9 +221,9 @@ def render() -> str:
     lines.append("")
     lines.append(
         "A family is **covered** when it has both an eval scenario and a benchmark task, "
-        "**partial** when it has one, and a **gap** when skills claim the method but no "
-        "rigor check targets it. Gaps are listed explicitly below — they are the to-do list, "
-        "not an omission."
+        "**partial** when it has one, **indirect** when a sibling family's checks defend it "
+        "(see notes), and a **gap** when skills claim the method but no rigor check targets "
+        "it. Gaps are listed explicitly below — they are the to-do list, not an omission."
     )
     lines.append("")
 

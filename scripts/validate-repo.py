@@ -333,6 +333,7 @@ def validate_required_files() -> tuple[list[str], list[str]]:
         "SKILL.md",
         "agents/openai.yaml",
         "README.md",
+        "README-en.md",
         "README-zh-CN.md",
         "README-ja.md",
         "README-ko.md",
